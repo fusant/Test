@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_Infrastructure", "02_Infrastructure", "{43CE4D7B-1B83-491C-8687-AEA24D054DE1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_Logic", "03_Logic", "{3B258B02-9EB5-4C3B-B560-DFC71D764B79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04_Controllers", "04_Controllers", "{DC645A23-ABDE-4855-ACAE-97918F45B391}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05_Web", "05_Web", "{CC2AA8F6-3B8D-4983-9F46-963B52138AD2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_Models", "01_Models", "{79FA410A-03BA-44D0-A1E8-581367830DF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketingTopics.Common", "Infrastructure\MarketingTopics.Common\MarketingTopics.Common.csproj", "{3826A9FA-8231-495D-9643-586E0FAFC1FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketingTopics.Models", "Models\MarketingTopics.Models\MarketingTopics.Models.csproj", "{3F72DCC0-FE4E-4A9D-99F1-B692F16B6114}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketingTopics.WebLogic", "Logic\MarketingTopics.WebLogic\MarketingTopics.WebLogic.csproj", "{1F263D58-BCD7-4A83-85F6-B870CE546C9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketingTopics.ServiceAgent", "Logic\MarketingTopics.ServiceAgent\MarketingTopics.ServiceAgent.csproj", "{8081B97E-4C06-49D8-BE18-7AD52FB06B12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketingTopics.Controllers.Common", "Controllers\MarketingTopics.Controllers.Common\MarketingTopics.Controllers.Common.csproj", "{FFE50092-0054-4F9F-AA02-1FAEFA0A4606}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketingTopics.Controllers.Topic", "Controllers\MarketingTopics.Controllers.Topic\MarketingTopics.Controllers.Topic.csproj", "{FCF1ED37-6DE6-424E-BDD3-023D897E6572}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketingTopics.Controllers.Area", "Controllers\MarketingTopics.Controllers.Area\MarketingTopics.Controllers.Area.csproj", "{30C284A8-B7E7-4DDF-ADB0-05C3D6A5B3B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "admin.mkttopics.yeshj.com", "admin.mkttopics.yeshj.com\admin.mkttopics.yeshj.com.csproj", "{123057C9-D1D8-4971-896A-95DC25A8037D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3826A9FA-8231-495D-9643-586E0FAFC1FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3826A9FA-8231-495D-9643-586E0FAFC1FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3826A9FA-8231-495D-9643-586E0FAFC1FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3826A9FA-8231-495D-9643-586E0FAFC1FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F72DCC0-FE4E-4A9D-99F1-B692F16B6114}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F72DCC0-FE4E-4A9D-99F1-B692F16B6114}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F72DCC0-FE4E-4A9D-99F1-B692F16B6114}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F72DCC0-FE4E-4A9D-99F1-B692F16B6114}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F263D58-BCD7-4A83-85F6-B870CE546C9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F263D58-BCD7-4A83-85F6-B870CE546C9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F263D58-BCD7-4A83-85F6-B870CE546C9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F263D58-BCD7-4A83-85F6-B870CE546C9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8081B97E-4C06-49D8-BE18-7AD52FB06B12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8081B97E-4C06-49D8-BE18-7AD52FB06B12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8081B97E-4C06-49D8-BE18-7AD52FB06B12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8081B97E-4C06-49D8-BE18-7AD52FB06B12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFE50092-0054-4F9F-AA02-1FAEFA0A4606}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFE50092-0054-4F9F-AA02-1FAEFA0A4606}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFE50092-0054-4F9F-AA02-1FAEFA0A4606}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFE50092-0054-4F9F-AA02-1FAEFA0A4606}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCF1ED37-6DE6-424E-BDD3-023D897E6572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCF1ED37-6DE6-424E-BDD3-023D897E6572}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCF1ED37-6DE6-424E-BDD3-023D897E6572}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCF1ED37-6DE6-424E-BDD3-023D897E6572}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30C284A8-B7E7-4DDF-ADB0-05C3D6A5B3B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30C284A8-B7E7-4DDF-ADB0-05C3D6A5B3B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30C284A8-B7E7-4DDF-ADB0-05C3D6A5B3B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30C284A8-B7E7-4DDF-ADB0-05C3D6A5B3B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{123057C9-D1D8-4971-896A-95DC25A8037D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{123057C9-D1D8-4971-896A-95DC25A8037D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{123057C9-D1D8-4971-896A-95DC25A8037D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{123057C9-D1D8-4971-896A-95DC25A8037D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3826A9FA-8231-495D-9643-586E0FAFC1FA} = {43CE4D7B-1B83-491C-8687-AEA24D054DE1}
+		{3F72DCC0-FE4E-4A9D-99F1-B692F16B6114} = {79FA410A-03BA-44D0-A1E8-581367830DF0}
+		{1F263D58-BCD7-4A83-85F6-B870CE546C9D} = {3B258B02-9EB5-4C3B-B560-DFC71D764B79}
+		{8081B97E-4C06-49D8-BE18-7AD52FB06B12} = {3B258B02-9EB5-4C3B-B560-DFC71D764B79}
+		{FFE50092-0054-4F9F-AA02-1FAEFA0A4606} = {DC645A23-ABDE-4855-ACAE-97918F45B391}
+		{FCF1ED37-6DE6-424E-BDD3-023D897E6572} = {DC645A23-ABDE-4855-ACAE-97918F45B391}
+		{30C284A8-B7E7-4DDF-ADB0-05C3D6A5B3B9} = {DC645A23-ABDE-4855-ACAE-97918F45B391}
+		{123057C9-D1D8-4971-896A-95DC25A8037D} = {CC2AA8F6-3B8D-4983-9F46-963B52138AD2}
+	EndGlobalSection
+EndGlobal
